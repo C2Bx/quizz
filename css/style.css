@@ -1,0 +1,348 @@
+/* Réinitialisation des styles pour une cohérence */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Empêche les défilements horizontaux */
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-image: url('../assets/fond.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Assure que le contenu occupe au moins toute la hauteur de l'écran */
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Empêche les débordements */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.app-container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1;
+    max-height: 100vh; /* Empêche les débordements verticaux */
+    overflow: hidden;
+}
+
+.header {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+.logo img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5rem;
+    transition: opacity 0.3s ease;
+    margin: auto;
+margin-bottom: 5rem;
+}
+
+.logo img:hover {
+    opacity: 0.8;
+}
+
+.btn-home {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn-home svg {
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-home:hover svg {
+    transform: scale(1.1);
+}
+
+/* Boutons unifiés */
+.quiz-btn-home, .quiz-btn-start, .quiz-btn-score, .quiz-btn-submit {
+    background-color: #C1272D;
+    color: #fff;
+    width: 60%;
+    max-width: 350px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-family: "Opti Agency Gothic", sans-serif;
+    display: block;
+    margin: 1em auto;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.quiz-btn-home:hover, .quiz-btn-start:hover, .quiz-btn-score:hover, .quiz-btn-submit:hover {
+    transform: translateY(-5px);
+    background-color: #b82226;
+}
+
+.quiz-btn-score {
+    background-color: #9D9FA2;
+}
+
+.quiz-btn-submit[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Conteneur des questions */
+.question-container {
+    background-color: #C1272D;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 1.5em;
+    margin: 1.5em auto;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.question-container h4, .question-container p {
+    margin: 0.5em 0;
+}
+
+/* Grille des choix */
+.question-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quiz-btn-choice {
+    background-color: white;
+    border: 2px solid #c1272d;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.quiz-btn-choice:hover {
+    background-color: #9d9fa2;
+    transform: scale(1.05);
+}
+
+.quiz-btn-choice img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.quiz-btn-choice-selected {
+    background-color: #9d9fa2;
+    color: white;
+}
+
+.quiz-btn-choice-correct {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.quiz-btn-choice-wrong {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+/* Conteneur de fin de quiz */
+.finish-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.finish-container h2 {
+    font-family: "Opti Agency Gothic", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    color: #C1272D;
+}
+
+.finish-container p {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-check {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.form-check-label {
+    color: #333;
+}
+
+.quiz-btn-submit {
+    background-color: #C1272D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.quiz-btn-submit:hover {
+    background-color: #C1272D;
+}
+
+/* Conteneur des scores */
+.scores-container {
+    background-color: #9d9fa2;
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.scroller {
+    max-height: calc(6 * 50px);
+    overflow-y: scroll;
+    scrollbar-color: #ffffff #9d9fa2;
+    scrollbar-width: thin;
+}
+
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+.score-table th, .score-table td {
+    border: 1px solid #ccc;
+    padding: 0.75em;
+    text-align: center;
+    font-size: 1em;
+    color: #000;
+}
+
+.score-table th {
+    background-color: #C1272D;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Médailles pour les scores */
+.gold {
+    background-color: #FFD700; /* Or */
+}
+
+.silver {
+    background-color: #C0C0C0; /* Argent */
+}
+
+.bronze {
+    background-color: #CD7F32; /* Bronze */
+}
+
+/* Media Queries pour la responsivité */
+@media (max-width: 768px) {
+    .quiz-btn-home, .quiz-btn-start, .quiz-btn-score, .quiz-btn-submit {
+        width: 80%;
+    }
+    
+    .logo img {
+        max-width: 100px;
+    }
+
+    .app-container {
+        width: 95%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quiz-btn-home, .quiz-btn-start, .quiz-btn-score, .quiz-btn-submit {
+        font-size: 1rem;
+        height: 50px;
+    }
+
+    .finish-container {
+        padding: 1.5em;
+    }
+}
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: none; /* Les erreurs ne s'affichent pas par défaut */
+}
+

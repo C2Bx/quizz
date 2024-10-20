@@ -1,0 +1,312 @@
+{
+    "questions": [
+        {
+            "question": "Qui a remporté la Coupe du Monde de la FIFA en 2014 ?",
+            "choices": [
+                {"text": "Allemagne"},
+                {"text": "Argentine"},
+                {"text": "Brésil"},
+                {"text": "Espagne"}
+            ],
+            "correctAnswer": "Allemagne",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur détient le record du nombre de buts en sélection nationale ?",
+            "choices": [
+                {"text": "Cristiano Ronaldo"},
+                {"text": "Ali Daei"},
+                {"text": "Lionel Messi"},
+                {"text": "Ferenc Puskás"}
+            ],
+            "correctAnswer": "Cristiano Ronaldo",
+            "type": "text"
+        },
+        {
+            "question": "Quel est le club de football le plus titré de Nouvelle-Calédonie ?",
+            "choices": [
+                {"text": "AS Magenta"},
+                {"text": "Hienghène Sport"},
+                {"text": "AS Lössi"},
+                {"text": "AS Mont-Dore"}
+            ],
+            "correctAnswer": "AS Magenta",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur de Nouvelle-Calédonie a remporté le Soulier d'Or de l'OFC Champions League en 2019 ?",
+            "choices": [
+                {"text": "Bertrand Kaï"},
+                {"text": "César Zeoula"},
+                {"text": "Jean-Brice Wadriako"},
+                {"text": "Roy Kayara"}
+            ],
+            "correctAnswer": "Bertrand Kaï",
+            "type": "text"
+        },
+        {
+            "question": "Qui est Lionel Messi ?",
+            "choices": [
+                {"image": "https://zako.nc/sae/quizz/assets/messi.png", "alt": "Lionel Messi"},
+                {"image": "https://zako.nc/sae/quizz/assets/ronaldo.png", "alt": "Cristiano Ronaldo"},
+                {"image": "https://zako.nc/sae/quizz/assets/neymar.png", "alt": "Neymar"},
+                {"image": "https://zako.nc/sae/quizz/assets/mbappe.png", "alt": "Kylian Mbappé"}
+            ],
+            "correctAnswer": "https://zako.nc/sae/quizz/assets/messi.png",
+            "type": "image"
+        },
+        {
+            "question": "Quel est le nom du stade principal de Nouméa ?",
+            "choices": [
+                {"text": "Stade Numa-Daly"},
+                {"text": "Stade de Koutio"},
+                {"text": "Stade Yoshida"},
+                {"text": "Stade Boewa"}
+            ],
+            "correctAnswer": "Stade Numa-Daly",
+            "type": "text"
+        },
+        {
+            "question": "Quel club de football de Nouvelle-Calédonie a participé à la Coupe du Monde des Clubs de la FIFA en 2019 ?",
+            "choices": [
+                {"text": "Hienghène Sport"},
+                {"text": "AS Magenta"},
+                {"text": "AS Lössi"},
+                {"text": "AS Mont-Dore"}
+            ],
+            "correctAnswer": "Hienghène Sport",
+            "type": "text"
+        },
+        {
+            "question": "Qui est Pep Guardiola ?",
+            "choices": [
+                {"image": "https://zako.nc/sae/quizz/assets/klopp.png", "alt": "Jürgen Klopp"},
+                {"image": "https://zako.nc/sae/quizz/assets/guardiola.png", "alt": "Pep Guardiola"},
+                {"image": "https://zako.nc/sae/quizz/assets/mourinho.png", "alt": "José Mourinho"},
+                {"image": "https://zako.nc/sae/quizz/assets/zidane.png", "alt": "Zinédine Zidane"}
+            ],
+            "correctAnswer": "https://zako.nc/sae/quizz/assets/guardiola.png",
+            "type": "image"
+        },
+        {
+            "question": "Quel est le surnom de l'équipe nationale de football de Nouvelle-Calédonie ?",
+            "choices": [
+                {"text": "Les Cagous"},
+                {"text": "Les Bleus"},
+                {"text": "Les Aigles"},
+                {"text": "Les Dragons"}
+            ],
+            "correctAnswer": "Les Cagous",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur calédonien a marqué lors du premier match de Hienghène Sport à la Coupe du Monde des Clubs ?",
+            "choices": [
+                {"text": "Antoine Roine"},
+                {"text": "Bertrand Kaï"},
+                {"text": "Jean-Philippe Saïko"},
+                {"text": "César Zeoula"}
+            ],
+            "correctAnswer": "Antoine Roine",
+            "type": "text"
+        },
+        {
+            "question": "Quel est le championnat de football le plus prestigieux en Nouvelle-Calédonie ?",
+            "choices": [
+                {"text": "Super Ligue"},
+                {"text": "Championnat des Îles"},
+                {"text": "Coupe de Calédonie"},
+                {"text": "Championnat Provincial"}
+            ],
+            "correctAnswer": "Super Ligue",
+            "type": "text"
+        },
+        {
+            "question": "Quel est le nom de l'entraîneur de l'équipe nationale de Nouvelle-Calédonie en 2019 ?",
+            "choices": [
+                {"text": "Thierry Sardo"},
+                {"text": "Laurent Blanc"},
+                {"text": "Zinedine Zidane"},
+                {"text": "Didier Deschamps"}
+            ],
+            "correctAnswer": "Thierry Sardo",
+            "type": "text"
+        },
+        {
+            "question": "Quel pays a remporté la Coupe d'Afrique des Nations en 2019 ?",
+            "choices": [
+                {"text": "Algérie"},
+                {"text": "Sénégal"},
+                {"text": "Nigeria"},
+                {"text": "Égypte"}
+            ],
+            "correctAnswer": "Algérie",
+            "type": "text"
+        },
+        {
+            "question": "Qui est le meilleur buteur de l'histoire de la Coupe du Monde ?",
+            "choices": [
+                {"text": "Miroslav Klose"},
+                {"text": "Pelé"},
+                {"text": "Ronaldo"},
+                {"text": "Gerd Müller"}
+            ],
+            "correctAnswer": "Miroslav Klose",
+            "type": "text"
+        },
+        {
+            "question": "Quel club calédonien a remporté la Super Ligue en 2023 ?",
+            "choices": [
+                {"text": "AS Magenta"},
+                {"text": "Tiga Sport"},
+                {"text": "Hienghène Sport"},
+                {"text": "AS Mont-Dore"}
+            ],
+            "correctAnswer": "AS Magenta",
+            "type": "text"
+        },
+        {
+            "question": "Quelle est l'équipe calédonienne ayant remporté la première division féminine en 2023 ?",
+            "choices": [
+                {"text": "AS Academy Féminine"},
+                {"text": "Hienghène Sport"},
+                {"text": "FCF Academy"},
+                {"text": "ASC Boulouparis"}
+            ],
+            "correctAnswer": "AS Academy Féminine",
+            "type": "text"
+        },
+        {
+            "question": "Combien de joueurs une équipe de football doit-elle avoir sur le terrain au début d'un match ?",
+            "choices": [
+                {"text": "9"},
+                {"text": "10"},
+                {"text": "11"},
+                {"text": "12"}
+            ],
+            "correctAnswer": "11",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur de Nouvelle-Calédonie est connu pour son passage à Wellington Phoenix (Nouvelle-Zélande) ?",
+            "choices": [
+                {"text": "Georges Gope-Fenepej"},
+                {"text": "César Zeoula"},
+                {"text": "Jean-Philippe Saïko"},
+                {"text": "Bertrand Kaï"}
+            ],
+            "correctAnswer": "Georges Gope-Fenepej",
+            "type": "text"
+        },
+        {
+            "question": "Quel est le nombre de participations de l'équipe nationale de Nouvelle-Calédonie à la Coupe des Nations de l'OFC ?",
+            "choices": [
+                {"text": "6"},
+                {"text": "4"},
+                {"text": "8"},
+                {"text": "3"}
+            ],
+            "correctAnswer": "6",
+            "type": "text"
+        },
+        {
+            "question": "Quel est le meilleur résultat de la Nouvelle-Calédonie en Coupe des Nations de l'OFC ?",
+            "choices": [
+                {"text": "Finaliste (2012)"},
+                {"text": "Demi-finaliste (2016)"},
+                {"text": "Vainqueur (2020)"},
+                {"text": "Phase de groupes (2004)"}
+            ],
+            "correctAnswer": "Finaliste (2012)",
+            "type": "text"
+        },
+        {
+            "question": "Quel est le premier club calédonien à avoir participé à une compétition internationale ?",
+            "choices": [
+                {"text": "AS Magenta"},
+                {"text": "Hienghène Sport"},
+                {"text": "AS Lössi"},
+                {"text": "AS Mont-Dore"}
+            ],
+            "correctAnswer": "AS Magenta",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur a remporté le Ballon d'Or en 2018 ?",
+            "choices": [
+                {"text": "Luka Modric"},
+                {"text": "Lionel Messi"},
+                {"text": "Cristiano Ronaldo"},
+                {"text": "Sadio Mané"}
+            ],
+            "correctAnswer": "Luka Modric",
+            "type": "text"
+        },
+        {
+            "question": "Quelle équipe a remporté l'UEFA Champions League en 2021 ?",
+            "choices": [
+                {"text": "Chelsea FC"},
+                {"text": "Manchester City"},
+                {"text": "Bayern Munich"},
+                {"text": "Real Madrid"}
+            ],
+            "correctAnswer": "Chelsea FC",
+            "type": "text"
+        },
+        {
+            "question": "Qui est le meilleur buteur de l'histoire de l'équipe nationale de Nouvelle-Calédonie ?",
+            "choices": [
+                {"text": "Bertrand Kaï"},
+                {"text": "César Zeoula"},
+                {"text": "Georges Gope-Fenepej"},
+                {"text": "Jean-Philippe Saïko"}
+            ],
+            "correctAnswer": "Bertrand Kaï",
+            "type": "text"
+        },
+        {
+            "question": "Combien de minutes dure un match de football (hors prolongations) ?",
+            "choices": [
+                {"text": "120 minutes (2x60 minutes)"},
+                {"text": "90 minutes (2x45 minutes)"},
+                {"text": "100 minutes (2x50 minutes)"},
+                {"text": "80 minutes (2x40 minutes)"}
+            ],
+            "correctAnswer": "90 minutes (2x45 minutes)",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur calédonien a participé à la Coupe du Monde U20 en 2011 avec les Îles Salomon ?",
+            "choices": [
+                {"text": "Jekob Jeno"},
+                {"text": "Bertrand Kaï"},
+                {"text": "Georges Gope-Fenepej"},
+                {"text": "César Zeoula"}
+            ],
+            "correctAnswer": "Jekob Jeno",
+            "type": "text"
+        },
+        {
+            "question": "Quel joueur calédonien a été élu meilleur joueur de la Super Ligue en 2019 ?",
+            "choices": [
+                {"text": "César Zeoula"},
+                {"text": "Jean-Philippe Saïko"},
+                {"text": "Bertrand Kaï"},
+                {"text": "Roy Kayara"}
+            ],
+            "correctAnswer": "Jean-Philippe Saïko",
+            "type": "text"
+        },
+        {
+            "question": "Quelle équipe calédonienne a participé à la Coupe du Monde des Clubs en 2019 ?",
+            "choices": [
+                {"text": "Hienghène Sport"},
+                {"text": "AS Magenta"},
+                {"text": "AS Lössi"},
+                {"text": "AS Mont-Dore"}
+            ],
+            "correctAnswer": "Hienghène Sport",
+            "type": "text"
+        }
+    ]
+}

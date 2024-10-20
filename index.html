@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Métadonnées et liens -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Quiz de football pour tester vos connaissances et marquer un maximum de buts.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <title>Quiz Football</title>
+
+    <!-- Préchargement pour améliorer la performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Liens vers les polices -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Opti+Agency+Gothic&display=swap" rel="stylesheet">
+
+    <!-- Lien vers les fichiers CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Lien vers jQuery et le fichier JavaScript -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="js/script.js"></script> <!-- Lien vers le fichier script.js -->
+</head>
+
+<body>
+    <!-- Musique de fond placée en dehors du conteneur principal -->
+    <audio id="background-music" src="assets/soccer-stadium-10-6709.mp3" loop></audio>
+
+    <div class="overlay"></div> <!-- Overlay pour légèrement assombrir l'image de fond -->
+
+    <div class="app-container">
+        <div class="header">
+            <!-- Bouton Home pour réinitialiser le quiz -->
+            <button class="btn-home" id="restart-btn">
+                <!-- SVG du bouton Home -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6a.5.5 0 0 0 .708.708L8 1.707l5.646 5.647a.5.5 0 0 0 .708-.708l-6-6z" />
+                    <path d="M13 7.5v6a.5.5 0 0 1-.5.5H10a.5.5 0 0 1-.5-.5V10a1 1 0 0 0-2 0v3.5a.5.5 0 0 1-.5.5H3.5a.5.5 0 0 1-.5-.5v-6a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6A.5.5 0 0 1 13 7.5z" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Conteneur principal pour le quiz -->
+        <div id="quiz-container" class="container text-center">
+            <div class="row my-sm-4 my-md-0">
+                <div class="col logo">
+                    <img src="assets/logoFCF.png" alt="Logo de la Fédération de Football">
+                </div>
+            </div>
+            <h1 class="quiz-title">TIR AU QUIZ</h1>
+            <h2 class="quiz-subtitle">Marque un maximum de but</h2>
+            <button class="quiz-btn-start mt-5" id="start-quiz" disabled>Commencer</button> <!-- Bouton désactivé au départ -->
+            <button class="quiz-btn-score mt-5" id="show-scores">Tableau des scores</button>
+        </div>
+    </div>
+
+    <!-- Ajout des effets sonores -->
+    <audio id="click-sound" src="assets/monopolygo-pression-de-bouton.mp3"></audio>
+    <audio id="correct-sound" src="assets/anthologie-de-julien-lepers_lXdsJpB.mp3"></audio>
+    <audio id="wrong-sound" src="assets/claque-au-sol_mister-v.mp3"></audio>
+</body>
+
+</html>
