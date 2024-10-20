@@ -33,7 +33,7 @@ Clonez le dépôt GitHub dans le répertoire de votre serveur web local ou dista
 
  `mysql -u [votre_utilisateur] -p [nom_de_la_base_de_donnees] < /chemin/vers/le/fichier/db.sql`
 
-Cela créera une table  `scores ` pour stocker les résultats des utilisateurs.
+Cela créera une table  `scores` pour stocker les résultats des utilisateurs.
 
 #### 3. Configuration du fichier de connexion à la base de données
 
@@ -56,7 +56,7 @@ Déposez tous les fichiers du projet dans un répertoire accessible par votre se
 
 Une fois le serveur configuré et les fichiers placés correctement, accédez au quiz via un navigateur à l'adresse suivante :
 
-` `http://[votre_domaine]/quiz/`
+`http://[votre_domaine]/quiz/`
 
 ⚠️ **Important** : N'oubliez pas de modifier les liens si le domaine change, comme dans les chemins vers les fichiers ou les URLs du projet.
 
