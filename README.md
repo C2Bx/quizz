@@ -37,7 +37,7 @@ Cela créera une table  `scores ` pour stocker les résultats des utilisateurs.
 
 #### 3. Configuration du fichier de connexion à la base de données
 
-Modifiez les fichiers PHP pour renseigner les informations de connexion à votre base de données. Dans les fichiers **get_scores.php** et **submit_score.php**, complétez les variables ` `$servername` `, ` `$username` `, ` `$password` `, et ` `$dbname` ` avec vos propres informations de connexion.
+Modifiez les fichiers PHP pour renseigner les informations de connexion à votre base de données. Dans les fichiers **get_scores.php** et **submit_score.php**, complétez les variables `$servername` , ` $username `, ` $password `, et ` $dbname ` avec vos propres informations de connexion.
 
  `php
 $servername = "localhost"; // ou l'adresse de votre serveur MySQL
