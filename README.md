@@ -24,22 +24,22 @@ Ce projet est un quiz interactif sur le thème du football, développé en HTML,
 
 Clonez le dépôt GitHub dans le répertoire de votre serveur web local ou distant :
 
-` `git clone git@github.com:C2Bx/quiz.git`
+ `git clone git@github.com:C2Bx/quiz.git`
 
 #### 2. Configuration de la base de données
 
 1. Créez une base de données MySQL en utilisant votre outil préféré (phpMyAdmin, ligne de commande, etc.).
 2. Importez la structure de la base de données en exécutant le fichier **db.sql** fourni avec le projet :
 
-` `mysql -u [votre_utilisateur] -p [nom_de_la_base_de_donnees] < /chemin/vers/le/fichier/db.sql`
+ `mysql -u [votre_utilisateur] -p [nom_de_la_base_de_donnees] < /chemin/vers/le/fichier/db.sql`
 
-Cela créera une table ` `scores` ` pour stocker les résultats des utilisateurs.
+Cela créera une table  `scores ` pour stocker les résultats des utilisateurs.
 
 #### 3. Configuration du fichier de connexion à la base de données
 
 Modifiez les fichiers PHP pour renseigner les informations de connexion à votre base de données. Dans les fichiers **get_scores.php** et **submit_score.php**, complétez les variables ` `$servername` `, ` `$username` `, ` `$password` `, et ` `$dbname` ` avec vos propres informations de connexion.
 
-` `php
+ `php
 $servername = "localhost"; // ou l'adresse de votre serveur MySQL
 $username = "votre_utilisateur";
 $password = "votre_mot_de_passe";
@@ -50,7 +50,7 @@ $dbname = "nom_de_la_base_de_donnees";
 
 Assurez-vous que votre serveur est configuré pour exécuter du PHP et qu'il est connecté à la base de données MySQL.
 
-Déposez tous les fichiers du projet dans un répertoire accessible par votre serveur web (ex. ` `/var/www/html/` ` pour Apache).
+Déposez tous les fichiers du projet dans un répertoire accessible par votre serveur web (ex.  `/var/www/html/`  pour Apache).
 
 #### 5. Accès au quiz
 
@@ -78,4 +78,4 @@ Vous pouvez personnaliser le quiz en modifiant les fichiers HTML et CSS dans le 
 
 ## Licence
 
-Ce projet est sous licence MIT - voir le fichier ` `[LICENSE]` ` pour plus de détails.
+Ce projet est sous licence MIT - voir le fichier  `[LICENSE]`  pour plus de détails.
